@@ -32,15 +32,24 @@ section:last-of-type{
 
     h1{
         color: hsl(0, 0%, 100%);
-        margin: .625em 0;
+        margin: 1em 0;
+        
     }
 
     p{
         color: hsl(215, 51%, 70%);
         font-size: 18px;
-        margin-top: .5em;
         display: flex;
         justify-content: flex-start;
+        line-height: 1.625em;
+        span{
+            margin-top: .325em;
+        }
+
+        .author{
+            color: white;
+        }
+
         img{
             max-width: 40px;
             border: .5px solid white;
@@ -60,9 +69,9 @@ section:last-of-type{
         justify-content: space-between;
         padding-left: 0;
         li{
+            letter-spacing: .05em;
             display: flex;
             column-gap: .5em;
-
         }
 
         li:first-of-type{
@@ -75,9 +84,9 @@ section:last-of-type{
             display: flex;
         }
     }
-
-
 }
+
+
 
 .attribution { font-size: 14px; text-align: center; color: white;}
 .attribution a { color: hsl(228, 45%, 44%); }
