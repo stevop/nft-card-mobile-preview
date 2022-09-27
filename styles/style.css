@@ -18,6 +18,14 @@ main {
   max-width: 375px;
 }
 
+a {
+  color: white;
+  text-decoration: none;
+}
+a:hover, a:focus {
+  color: hsl(178deg, 100%, 50%);
+}
+
 section:first-of-type img {
   width: 100%;
   height: auto;
@@ -25,7 +33,6 @@ section:first-of-type img {
 }
 
 section:last-of-type h1 {
-  color: hsl(0deg, 0%, 100%);
   margin: 1em 0;
 }
 section:last-of-type p {
@@ -37,9 +44,6 @@ section:last-of-type p {
 }
 section:last-of-type p span {
   margin-top: 0.325em;
-}
-section:last-of-type p .author {
-  color: white;
 }
 section:last-of-type p img {
   max-width: 40px;
