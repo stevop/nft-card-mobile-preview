@@ -34,6 +34,7 @@ section:first-of-type img {
 
 section:last-of-type h1 {
   margin: 1em 0;
+  font-weight: 600;
 }
 section:last-of-type p {
   color: hsl(215deg, 51%, 70%);
@@ -44,6 +45,7 @@ section:last-of-type p {
 }
 section:last-of-type p span {
   margin-top: 0.325em;
+  font-weight: 400;
 }
 section:last-of-type p img {
   max-width: 40px;
