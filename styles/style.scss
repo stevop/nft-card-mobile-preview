@@ -120,7 +120,16 @@ section:last-of-type{
     }
 }
 
-
-
-.attribution { font-size: 14px; text-align: center; color: white;}
-.attribution a { color: hsl(228, 45%, 44%); }
+.attribution { 
+    font-size: 18px; 
+    text-align: center; 
+    color: white;
+}
+.attribution a { 
+    color: hsl(228, 45%, 44%); 
+    transition: color .3s ease-in-out;
+}
+.attribution a:hover, .attribution a:focus {
+    cursor: pointer;
+    color: hsl(178, 100%, 50%);
+}
